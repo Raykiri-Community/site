@@ -14,4 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.container .btn-container .donate').addEventListener('click', function() {
         document.location.href = '/site/donate/';
     });
+
+    document.querySelector('.container .btn-container .blog').addEventListener('click', function() {
+        document.location.href = '/site/blog/';
+    });
 });
