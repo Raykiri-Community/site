@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 @media (max-width: 400px) {
                     #root {
-                        width: 500px;
+                        width: 350px;
                     }
                 }
             `;
