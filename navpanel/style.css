@@ -1,0 +1,24 @@
+.container .btn-container {
+    width: 170px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container .btn-container .btn {
+    border-color: #0Adcc5;
+    border-width: 3px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    width: 150px; 
+    height: 35px; 
+    border-radius: 15px; 
+    cursor: pointer;
+    margin-top: 15px;
+} 
+
+.container .btn-container .btn:hover {
+    background-color: #0Adcc5;
+}
