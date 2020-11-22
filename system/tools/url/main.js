@@ -1,3 +1,4 @@
+'use strict';
 function urlUsingMain() {
     let url = document.location.href;
     let tool = $$.p().get('tool');

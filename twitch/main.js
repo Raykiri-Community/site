@@ -1,3 +1,4 @@
+'use strict';
 document.addEventListener('DOMContentLoaded', function() {
     const root = document.createElement('div');
     root.id = 'root';
