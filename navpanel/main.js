@@ -18,4 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.container .btn-container .blog').addEventListener('click', function() {
         document.location.href = '/site/blog/';
     });
+
+    document.querySelector('.container .btn-container .twitch').addEventListener('click', function() {
+        document.location.href = '/site/twitch/';
+    });
 });
