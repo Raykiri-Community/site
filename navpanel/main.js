@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.container .btn-container .main').addEventListener('click', function() {
-        document.location.href = '/site/main/';
+        document.location.href = '/site/main/ru/';
     });
 
     document.querySelector('.container .btn-container .commands').addEventListener('click', function() {

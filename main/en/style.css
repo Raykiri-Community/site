@@ -41,18 +41,15 @@ body {
     margin-top: 15%;
 }
 
-.container .raykiri-description .ru .a,
-.container .raykiri-description .en .a {
+.container .raykiri-description p .a {
     font-weight: 800;
 }
 
-.container .raykiri-description .ru .b,
-.container .raykiri-description .en .b {
+.container .raykiri-description p .b {
     opacity: 0.5;
 }
 
-.container .raykiri-description .ru,
-.container .raykiri-description .en {
+.container .raykiri-description p {
     width: 100%;
     height: 100%;
     padding: 15px;
@@ -61,8 +58,7 @@ body {
     margin-right: auto;
 }
 
-#container .raykiri-profile-card .support-server-ru,
-#container .raykiri-profile-card .support-server-en {
+#container .raykiri-profile-card .support-server {
     border-color: #0Adcc5;
     border-width: 3px;
     border-style: solid;
@@ -74,20 +70,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    display: block;
 } 
 
-#container .raykiri-profile-card .support-server-ru:hover,
-#container .raykiri-profile-card .support-server-en:hover {
+#container .raykiri-profile-card .support-server:hover {
     background-color: #0Adcc5;
 } 
 
-#container .raykiri-profile-card .support-server-ru:active,
-#container .raykiri-profile-card .support-server-en:active {
+#container .raykiri-profile-card .support-server:active {
     background-color: blue;
 }
 
-#container .raykiri-profile-card .add-ru,
-#container .raykiri-profile-card .add-en {
+#container .raykiri-profile-card .add {
     border-color: #0Adcc5;
     border-width: 3px;
     border-style: solid;
@@ -100,6 +94,7 @@ body {
     margin-right: auto;
     margin-top: 15px;
     cursor: pointer;
+    display: block;
 } 
 
 #container .raykiri-profile-card .add-ru:hover,
@@ -107,8 +102,7 @@ body {
     background-color: #0Adcc5;
 } 
 
-#container .raykiri-profile-card .add-ru:active,
-#container .raykiri-profile-card .add-en:active {
+#container .raykiri-profile-card .add:active {
     background-color: blue;
 }
 

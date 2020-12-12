@@ -1,0 +1,22 @@
+@media (max-width: 400px) {
+    #container .raykiri-profile-card .support-server {
+        left: 100px;
+        top: -60px;
+    }
+
+    #container .raykiri-profile-card .add {
+        left: 100px;
+    }
+
+    #container .raykiri-profile-card {
+        width: 350px;
+    }
+
+    #container .site-lang {
+        display: none;
+    }
+
+    #container .site-lang-for-mobile {
+        display: inline;
+    }
+}
