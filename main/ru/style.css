@@ -97,8 +97,7 @@ body {
     display: block;
 } 
 
-#container .raykiri-profile-card .add-ru:hover,
-#container .raykiri-profile-card .add-en:hover {
+#container .raykiri-profile-card .add:hover {
     background-color: #0Adcc5;
 } 
 
