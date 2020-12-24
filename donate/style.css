@@ -1,4 +1,4 @@
-.container .block {
+.container > .block {
     color: white;
     font-family: system-ui;
     width: 100%;
@@ -10,14 +10,14 @@
     text-align: center;
 }
 
-.container .pm {
+.container > .pm {
     width: 350px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25%;
 }
 
-.container .pm .card {
+.container > .pm > .card {
     background-color: white;
     width: 350px;
     height: 200px;
@@ -26,12 +26,12 @@
     cursor: pointer;
 }
 
-.container .pm .qiwi img {
+.container > .pm > .qiwi > img {
     height: 200px;
     width: 350px;
 }
 
-.container .pm .patreon img {
+.container > .pm > .patreon > img {
     height: 190px;
     width: 340px;
     margin: 5px;

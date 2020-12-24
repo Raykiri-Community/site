@@ -1,4 +1,4 @@
-.container .btn-container {
+.container > .btn-container {
     width: 170px;
     height: 100%;
     margin-left: auto;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.container .btn-container .btn {
+.container > .btn-container > .btn {
     border-color: #0Adcc5;
     border-width: 3px;
     border-style: solid;
@@ -19,6 +19,6 @@
     margin-top: 15px;
 } 
 
-.container .btn-container .btn:hover {
+.container > .btn-container > .btn:hover {
     background-color: #0Adcc5;
 }

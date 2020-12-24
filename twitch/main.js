@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             margin: 0px;
         }
 
-        #root #twitch-embed {
+        #root > #twitch-embed {
             margin-top: 5%;
             margin-left: auto;
             margin-right: auto;
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             height: 500px;
         }
 
-        #root #twitch-embed-mobile {
+        #root > #twitch-embed-mobile {
             width: 350px;
             height: 250px;
             margin-top: 5%;
@@ -47,11 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         @media (max-width: 400px) {
-            #root #twitch-embed {
+            #root > #twitch-embed {
                 display: none;
             }
 
-            #root #twitch-embed-mobile {
+            #root > #twitch-embed-mobile {
                 display: block;
             }
         }

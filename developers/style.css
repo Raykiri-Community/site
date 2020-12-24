@@ -1,4 +1,4 @@
-.container .card {
+.container > .card {
     width: 300px;
     height: 500px;
     background-image: url(https://cdn.discordapp.com/attachments/761842638579957781/773163957288566815/Wiki-background.png);
@@ -11,7 +11,7 @@
     font-family: system-ui;
 }
 
-.container .wrapper {
+.container > .wrapper {
     width: 128px;
     height: 138px;
     border-radius: 50%;
@@ -20,25 +20,25 @@
     margin-right: auto;
 }
 
-.container .wrapper img {
+.container > .wrapper > img {
     border-radius: 50%;
     width: 128px;
     height: 128px;
 }
 
-.container h1 {
+.container > h1 {
     width: 100%;
     text-align: center;
 }
 
-.container ul {
+.container > ul {
     width: 100%;
     text-align: center;
     list-style: none;
     padding-left: 0px;
 }
 
-.container ul li {
+.container > ul > li {
     margin-top: 10px;
 }
 
@@ -47,13 +47,13 @@ a {
     text-decoration: none;
 }
 
-.container .debug {
+.container > .debug {
     position: absolute;
     top: 10%;
     left: 10%;
 }
 
-.container .masero {
+.container > .masero {
     position: absolute;
     top: 10%;
     right: 10%;

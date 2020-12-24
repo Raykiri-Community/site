@@ -1,25 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('.container .btn-container .main').addEventListener('click', function() {
-        document.location.href = '/site/main/ru/';
+    document.querySelector('.container > .btn-container > .main').addEventListener('click', function() {
+        document.location.href = '/site/main/';
     });
 
-    document.querySelector('.container .btn-container .commands').addEventListener('click', function() {
+    document.querySelector('.container > .btn-container > .commands').addEventListener('click', function() {
         document.location.href = '/site/commands/';
     });
 
-    document.querySelector('.container .btn-container .developers').addEventListener('click', function() {
+    document.querySelector('.container > .btn-container > .developers').addEventListener('click', function() {
         document.location.href = '/site/developers/';
     });
 
-    document.querySelector('.container .btn-container .donate').addEventListener('click', function() {
+    document.querySelector('.container > .btn-container > .donate').addEventListener('click', function() {
         document.location.href = '/site/donate/';
     });
 
-    document.querySelector('.container .btn-container .blog').addEventListener('click', function() {
-        document.location.href = '/site/blog/';
-    });
-
-    document.querySelector('.container .btn-container .twitch').addEventListener('click', function() {
+    document.querySelector('.container > .btn-container > .twitch').addEventListener('click', function() {
         document.location.href = '/site/twitch/';
     });
 });

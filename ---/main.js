@@ -87,8 +87,8 @@ function err() {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-    let template = $$.p().get('template');
-    let p = $$.p().get('p');
+    let template = new URL(document.location.href).searchParams.get('template');
+    let p = new URL(document.location.href).searchParams.get('p');
     if (template) {
         if (template == '1') {
             if (p) {

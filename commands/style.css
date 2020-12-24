@@ -1,24 +1,24 @@
 .q {
     background-color: #0Adcc5;
     padding: 3px;
-    font-style: italic;
     border-radius: 5px;
+    color: rgb(87, 87, 87);
 }
 
-.root table {
+.root > table {
     font-family: system-ui;
     color: white;
     width: 100%;
     border-spacing: 10px;
 }
 
-.root table th,
-.root table td {
+.root > table > tbody > tr > th,
+.root > table > tbody > tr > td {
     text-align: center;
     width: 100px;
     height: 35px;
 }
 
-.root table tr {
+.root > table > tbody > tr {
     background-color: #36393f;
 }
